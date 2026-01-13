@@ -29,7 +29,6 @@ function Do-Op1 {
 ./update bulkcmd "keyman write usid str 24154048420000"
 ./update bulkcmd "keyman read usid"
 ./update bulkcmd "saveenv"
-./update bulkcmd erase bootloader
 ./update bulkcmd "reset"
     Write-Host ""
     Read-Host "Enter Goto Manu"
